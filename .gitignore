@@ -1,0 +1,6 @@
+.DS_Store
+*.pt
+notebooks/clf/
+notebooks/wandb/
+.ipynb_checkpoints
+*.onnx
