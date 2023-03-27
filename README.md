@@ -14,6 +14,8 @@ We will use tools including large pre-trained models and model training dashboar
 
 [First steps with Deep Learning with MNIST](notebooks/1_mnist.ipynb)
 
+Art data can be downloaded [here](https://drive.google.com/file/d/1oh8xD2Npl95X1cXiqrKyjJ0MLQGD09w3/view?usp=share_link)
+
 [RNNs and CNNs](notebooks/2_rnn_and_cnn.ipynb)
 
 [Working with pre-trained models](notebooks/3_pretained_models.ipynb)
@@ -24,16 +26,16 @@ We will use tools including large pre-trained models and model training dashboar
 
 `app.py` is a Flask app that uses a VGG16 model to classify the art style of an uploaded image. The app currently supports 10 different art styles:
 
-Abstract Expressionism
-Art Nouveau (Modern)
-Baroque
-Expressionism
-Impressionism
-Northern Renaissance
-Post-Impressionism
-Realism
-Romanticism
-Symbolism
+- Abstract Expressionism
+- Art Nouveau (Modern)
+- Baroque
+- Expressionism
+- Impressionism
+- Northern Renaissance
+- Post-Impressionism
+- Realism
+- Romanticism
+- Symbolism
 
 Start the Flask app:
 `python app.py`
