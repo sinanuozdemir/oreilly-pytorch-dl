@@ -12,9 +12,6 @@ app = Flask(__name__)
 transform = transforms.Compose([
     transforms.Resize((224, 224)),  # Resize the input image to 224 x 224 pixels
     transforms.ToTensor(),  # Convert the image to a PyTorch tensor
-    transforms.Normalize(
-        mean=[0.485, 0.456, 0.406],  # Normalize the image using the VGG16 mean and standard deviation values
-        std=[0.229, 0.224, 0.225])
 ])
 
 # Load the pre-trained VGG16 model
