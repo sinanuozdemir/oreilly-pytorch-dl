@@ -4,3 +4,5 @@ notebooks/clf/
 notebooks/wandb/
 .ipynb_checkpoints
 *.onnx
+data/MNIST/
+data/art-styles/
