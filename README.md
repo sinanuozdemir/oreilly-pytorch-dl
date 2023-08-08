@@ -14,7 +14,7 @@ We will use tools including large pre-trained models and model training dashboar
 
 [First steps with Deep Learning with MNIST](notebooks/1_mnist.ipynb)
 
-Art data can be downloaded [here](https://drive.google.com/file/d/1oh8xD2Npl95X1cXiqrKyjJ0MLQGD09w3/view?usp=share_link)
+All data can be downloaded [here](https://drive.google.com/file/d/1jofGOHQ4PwZ50kpGuDqBeVXwDNcjPE6B/view?usp=sharing). Note it is about 6GB so it may take a bit.
 
 [RNNs and CNNs](notebooks/2_rnn_and_cnn.ipynb)
 
