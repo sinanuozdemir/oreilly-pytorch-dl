@@ -15,15 +15,15 @@ transform = transforms.Compose([
 ])
 
 # Load the pre-trained VGG16 model
-trained_vgg_model = models.vgg16()
+trained_vgg_model = models.vgg11()
 
 # Modify the model's final layer to have the correct number of output classes
 num_classes = 10
 trained_vgg_model.classifier[-1] = nn.Linear(trained_vgg_model.classifier[-1].in_features, num_classes)
 
 # Set the model to evaluation mode and load the trained weights
+trained_vgg_model.load_state_dict(torch.load("data/trained_vgg_model_quantized.pt"))
 trained_vgg_model.eval()
-trained_vgg_model.load_state_dict(torch.load("data/trained_vgg_model_pruned.pt"))
 
 # Define the class labels
 CLASSES = [
@@ -39,6 +39,7 @@ CLASSES = [
     'Symbolism'
 ]
 
+
 # Define the predict endpoint
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -49,15 +50,15 @@ def predict():
         with torch.no_grad():
             output = trained_vgg_model(input_tensor)
 
-        # Get the predicted class and its confidence score
-        _, predicted = torch.max(output, 1)
-        class_id = int(predicted.item())
-        confidence = torch.softmax(output, dim=1)[0][class_id].item()
+        # Get the probabilities for all classes
+        probabilities = torch.softmax(output, dim=1)[0].tolist()
+        class_probabilities = {CLASSES[class_id]: prob for class_id, prob in enumerate(probabilities)}
+        sorted_probabilities = sorted(class_probabilities.items(), key=lambda x: x[1], reverse=True)
 
-        # Return the predicted class and its confidence score as a JSON response
-        return jsonify({'class_id': CLASSES[class_id], 'confidence': confidence})
+        return jsonify(sorted_probabilities)
 
     return jsonify({'error': 'No image provided'})  # Return an error message if no image file was uploaded
+
 
 if __name__ == '__main__':
     app.run()  # Run the Flask app if this module is executed directly (not imported)

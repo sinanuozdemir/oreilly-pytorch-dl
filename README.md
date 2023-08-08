@@ -49,13 +49,25 @@ To classify an image, you can use a cURL request in the following format:
 
 ```curl -X POST -F 'image=@/path/to/your/image.jpg' http://localhost:5000/predict```
 
-Replace `/path/to/your/image.jpg` with the path to your own image. The response will be in JSON format and will contain the predicted art style and its confidence score, as shown below:
+Replace `/path/to/your/image.jpg` with the path to your own image. The response will be in JSON format and will contain the predicted art style and associated confidence scores, as shown below:
 
 ```
-{
-	"class_id": "Impressionism",
-	"confidence": 0.9759522089958191
-}
+e.g.
+curl -X POST -F \
+  'image=@images/Venus_and_Adonis_by_Peter_Paul_Rubens.jpg' \
+  http://localhost:5000/predict
+
+[
+	["Northern_Renaissance",0.13392961025238037],
+	["Realism",0.12794768810272217],
+	["Romanticism",0.12592236697673798],
+	["Post_Impressionism",0.11863630264997482],
+	["Baroque",0.11325731128454208],
+	["Symbolism",0.1120268702507019],
+	["Expressionism",0.08971412479877472],
+	["Impressionism",0.086906298995018],
+	["Art_Nouveau_Modern",0.05910796299576759],
+	["Abstract_Expressionism",0.03255145251750946]]
 ```
 
 If there is an error with the request, such as no image being provided, the response will contain an error message instead:
