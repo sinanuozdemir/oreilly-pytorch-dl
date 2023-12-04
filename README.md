@@ -22,6 +22,8 @@ All data can be downloaded [here](https://drive.google.com/file/d/1jofGOHQ4PwZ50
 
 [Production Optimization](notebooks/4_deployment_and_optimization.ipynb)
 
+[BONUS: Code from my IBM WatsonX talk on more advanced training optmization](https://colab.research.google.com/drive/1fdx2XlqfAjBoyiTktkRwa8SFaRF3Ch82?usp=sharing)
+
 ### Flask App
 
 `app.py` is a Flask app that uses a VGG16 model to classify the art style of an uploaded image. The app currently supports 10 different art styles:
