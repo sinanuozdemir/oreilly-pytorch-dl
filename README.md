@@ -1,30 +1,50 @@
 ![oreilly-logo](images/oreilly.png)
 
-# Introduction to Deep Learning with PyTorch
+# Deep Learning for Modern AI
 
 
-This repository contains code for the [O'Reilly Live Online Training for Introduction to Deep Learning with PyTorch
-](https://www.oreilly.com/live-events/introduction-to-deep-learning-with-pytorch/0636920086096)
+This repository contains code for the [O'Reilly Live Online Training for Deep Learning for Modern AI](https://learning.oreilly.com/live-events/deep-learning-for-modern-ai/0642572005084)
 
-This training provides the theory, practical concepts, and comprehensive introduction to machine learning and deep learning with PyTorch. By making your way through several real-world case studies including object recognition and text classification, this session is an excellent crash course in deep learning with PyTorch.
+This training provides the theory and practical concepts for a comprehensive introduction to machine learning and deep learning with PyTorch —foundational knowledge needed to successfully build and train GenAI and multimodal models. By making our way through several real-world case studies including object recognition and text classification this session is an excellent crash course in deep learning with PyTorch.
 
-We will use tools including large pre-trained models and model training dashboards to set up reproducible deep learning experiments and build machine learning models optimized for performance. There will be several code examples throughout the training to help solidify the theoretical concepts that will be introduced.
-
+We use tools including large pre-trained models and model training dashboards to set up reproducible deep learning experiments and build machine learning models optimized for performance. There are several code examples throughout the training to help solidify the theoretical concepts that will be introduced. Models like Stable Diffusion, Llama 3, GPT, and BERT are highlighted as we uncover the training and optimization strategies to get the most of our models' performance, speed, and memory usage.
 ### Notebooks
 
-[First steps with Deep Learning with MNIST](notebooks/1_mnist.ipynb)
 
-All data can be downloaded [here](https://drive.google.com/file/d/1jofGOHQ4PwZ50kpGuDqBeVXwDNcjPE6B/view?usp=sharing). Note it is about 6GB so it may take a bit.
+#### 1. Introduction to Deep Learning
 
-[RNNs and CNNs](notebooks/2_rnn_and_cnn.ipynb)
+All data can be downloaded for the art classification example [here](https://drive.google.com/file/d/1jofGOHQ4PwZ50kpGuDqBeVXwDNcjPE6B/view?usp=sharing). Note it is about 6GB so it may take a bit.
 
-[Working with pre-trained models](notebooks/3_pretained_models.ipynb)
+- [**First steps with Deep Learning with MNIST**](notebooks/mnist.ipynb)
+2. [**RNNs and CNNs**](notebooks/rnn_and_cnn.ipynb)
+3. [**Working with a pre-trained VGG-11 model**](notebooks/pretrained_vgg.ipynb)
+4. [**Fine-tuning BERT vs ChatGPT**](notebooks/BERT_vs_GPT_for_CLF.ipynb)
+5. [**Fine-tuning Llama 3 to be a chatbot**](https://colab.research.google.com/drive/1gN7jsUFQTPAj5uFrq06HcSLQSZzT7hZz?usp=sharing)
 
-[Production Optimization](notebooks/4_deployment_and_optimization.ipynb)
+#### 2. Optimizing models 
 
-[BONUS: Code from my IBM WatsonX talk on more advanced training optmization](https://colab.research.google.com/drive/1fdx2XlqfAjBoyiTktkRwa8SFaRF3Ch82?usp=sharing)
+- [**Production Optimization**](notebooks/deployment_and_optimization.ipynb)
+2. [**Quantizing Llama 3**](https://colab.research.google.com/drive/12RTnrcaXCeAqyGQNbWsrvcqKyOdr0NSm?usp=sharing)
+3. [**Testing different fine-tuning configurations**](https://colab.research.google.com/drive/1fdx2XlqfAjBoyiTktkRwa8SFaRF3Ch82?usp=sharing)
 
-### Flask App
+#### 3. Going Further
+
+- **[Intro to Multimodality](https://colab.research.google.com/drive/1zYSzDuYFa_cbRlti3scUjfmvradK8Sf4?usp=sharing)**: An introduction to multimodality with CLIP and SHAP-E + Diffusion
+
+	- **[Whisper](https://colab.research.google.com/drive/1KxLWEEBtgix4zgP52pnxlIoJrZ8sHEYC?usp=sharing)**: An introduction to using Whisper for audio transcription
+
+	- **[Llava](https://colab.research.google.com/drive/1IwNAz1Ee4YUSRNCU-SOsa7FS8Q2vmpoL?usp=sharing)**: Using an open source mult-turn multimodal engine
+
+- **Visual Q/A**
+	- **Constructing and Training our model**
+		- [Download the data from my Dropbox here](https://www.dropbox.com/scl/fo/w6iyfox8gnflvm7g10n47/AB47L7tNEl2Q8eyemZa2GMA?rlkey=v9s8bv6cmjukykpilzimswar0&st=fbulzw4e&dl=0)
+		- [Local](notebooks/constructing_a_vqa_system.ipynb), [Colab](https://colab.research.google.com/drive/1zvbruS1DvFrVgXjNouSrrF9-PphKLWWl?usp=sharing) 
+
+	- **Using our VQA system**
+		- [Local](notebooks/using_our_vqa.ipynb), [Colab](https://colab.research.google.com/drive/16GOBndQuIBO-UfXdpPte-PXaZS2nsW1H?usp=sharing)
+
+
+#### How to Use the Image Recognition Flask App
 
 `app.py` is a Flask app that uses a VGG16 model to classify the art style of an uploaded image. The app currently supports 10 different art styles:
 
