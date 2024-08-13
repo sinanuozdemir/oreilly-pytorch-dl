@@ -16,16 +16,16 @@ We use tools including large pre-trained models and model training dashboards to
 All data can be downloaded for the art classification example [here](https://drive.google.com/file/d/1jofGOHQ4PwZ50kpGuDqBeVXwDNcjPE6B/view?usp=sharing). Note it is about 6GB so it may take a bit.
 
 - [**First steps with Deep Learning with MNIST**](notebooks/mnist.ipynb)
-2. [**RNNs and CNNs**](notebooks/rnn_and_cnn.ipynb)
-3. [**Working with a pre-trained VGG-11 model**](notebooks/pretrained_vgg.ipynb)
-4. [**Fine-tuning BERT vs ChatGPT**](notebooks/BERT_vs_GPT_for_CLF.ipynb)
-5. [**Fine-tuning Llama 3 to be a chatbot**](https://colab.research.google.com/drive/1gN7jsUFQTPAj5uFrq06HcSLQSZzT7hZz?usp=sharing)
+- [**RNNs and CNNs**](notebooks/rnn_and_cnn.ipynb)
+- [**Working with a pre-trained VGG-11 model**](notebooks/pretrained_vgg.ipynb)
+- [**Fine-tuning BERT vs ChatGPT**](notebooks/BERT_vs_GPT_for_CLF.ipynb)
+- [**Fine-tuning Llama 3 to be a chatbot**](https://colab.research.google.com/drive/1gN7jsUFQTPAj5uFrq06HcSLQSZzT7hZz?usp=sharing)
 
 #### 2. Optimizing models 
 
 - [**Production Optimization**](notebooks/deployment_and_optimization.ipynb)
-2. [**Quantizing Llama 3**](https://colab.research.google.com/drive/12RTnrcaXCeAqyGQNbWsrvcqKyOdr0NSm?usp=sharing)
-3. [**Testing different fine-tuning configurations**](https://colab.research.google.com/drive/1fdx2XlqfAjBoyiTktkRwa8SFaRF3Ch82?usp=sharing)
+- [**Quantizing Llama 3**](https://colab.research.google.com/drive/12RTnrcaXCeAqyGQNbWsrvcqKyOdr0NSm?usp=sharing)
+- [**Testing different fine-tuning configurations**](https://colab.research.google.com/drive/1fdx2XlqfAjBoyiTktkRwa8SFaRF3Ch82?usp=sharing)
 
 #### 3. Going Further
 
