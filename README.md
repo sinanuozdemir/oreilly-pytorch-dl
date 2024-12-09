@@ -27,6 +27,7 @@ All data can be downloaded for the art classification example [here](https://dri
 - [**Production Optimization**](notebooks/deployment_and_optimization.ipynb)
 - [**Quantizing Llama 3**](https://colab.research.google.com/drive/12RTnrcaXCeAqyGQNbWsrvcqKyOdr0NSm?usp=sharing)
 - [**Testing different fine-tuning configurations**](https://colab.research.google.com/drive/1fdx2XlqfAjBoyiTktkRwa8SFaRF3Ch82?usp=sharing)
+- [**Distilling BERT models**](https://github.com/sinanuozdemir/quick-start-guide-to-llms/blob/main/notebooks/11_distillation_example_2.ipynb)
 
 #### 3. Going Further
 
