@@ -19,6 +19,7 @@ All data can be downloaded for the art classification example [here](https://dri
 - [**RNNs and CNNs**](notebooks/rnn_and_cnn.ipynb)
 - [**Working with a pre-trained VGG-11 model**](notebooks/pretrained_vgg.ipynb)
 - [**Fine-tuning BERT vs ChatGPT**](notebooks/BERT_vs_GPT_for_CLF.ipynb)
+	- [Fine-tuning OpenAI](https://github.com/sinanuozdemir/quick-start-guide-to-llms/blob/main/notebooks/05_openai_app_review_fine_tuning.ipynb): the code to compare against BERT
 - [**Fine-tuning GPT-2 to convert English to LaTEX**](notebooks/latex_gpt2.ipynb)
 - [**Fine-tuning Llama 3 to be a chatbot**](https://colab.research.google.com/drive/1gN7jsUFQTPAj5uFrq06HcSLQSZzT7hZz?usp=sharing)
 
