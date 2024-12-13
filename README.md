@@ -110,3 +110,7 @@ If there is an error with the request, such as no image being provided, the resp
 
 **Sinan Ozdemir** is the Founder and CTO of LoopGenius where he uses State of the art AI to help people create and run their businesses. Sinan is a former lecturer of Data Science at Johns Hopkins University and the author of multiple textbooks on data science and machine learning. Additionally, he is the founder of the recently acquired Kylie.ai, an enterprise-grade conversational AI platform with RPA capabilities. He holds a master’s degree in Pure Mathematics from Johns Hopkins University and is based in San Francisco, CA.
 
+# For More
+
+- CHeck out [Deep Learning Illustrated](https://www.amazon.com/dp/0135116694?ref_=cm_sw_r_ffobk_cp_ud_dp_T500T43FCOX9F12OYRFO&peakEvent=5&dealEvent=0&bestFormat=true): A best seller by Jon Krohn, it's a very visual introduction to deep learning
+- [Deep Learning course: lecture slides and lab notebooks](https://m2dsupsdlclass.github.io/lectures-labs/): The course covers the basics of Deep Learning, with a focus on applications.
