@@ -17,7 +17,7 @@ All data can be downloaded for the art classification example [here](https://dri
 
 - [**First steps with Deep Learning with MNIST**](notebooks/mnist.ipynb)
 - [**RNNs and CNNs**](notebooks/rnn_and_cnn.ipynb)
-- [**Working with a pre-trained VGG-11 model**](notebooks/pretrained_vgg.ipynb)
+- [**Working with pre-trained VGG-11 and BERT models**](notebooks/vgg_and_bert.ipynb)
 - [**Fine-tuning BERT vs ChatGPT**](notebooks/BERT_vs_GPT_for_CLF.ipynb)
 	- [Fine-tuning OpenAI](https://github.com/sinanuozdemir/quick-start-guide-to-llms/blob/main/notebooks/05_openai_app_review_fine_tuning.ipynb): the code to compare against BERT
 - [**Fine-tuning GPT-2 to convert English to LaTEX**](notebooks/latex_gpt2.ipynb)
