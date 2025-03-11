@@ -39,15 +39,19 @@ All data can be downloaded for the art classification example [here](https://dri
 	- **[Llava](https://colab.research.google.com/drive/1IwNAz1Ee4YUSRNCU-SOsa7FS8Q2vmpoL?usp=sharing)**: Using an open source mult-turn multimodal engine
   
  	- **[CLIP-based Stock Image Search](https://colab.research.google.com/drive/1aUz0FKQDSAyXyhRyvkkRsSy7S30mpRJc?usp=sharing)**: Using CLIP to search through a library of images
+  
+  	- **[Dreambooth](https://colab.research.google.com/drive/1tQt1pE6l0MI79W8ZX0MMu0YVmF2I0GB3?usp=sharing)**: Fine-tuning a stable difusion model to make images of yours truly! Ever wonder what I look like blonde? Me neither but AI gave me some ideas of what it would look like.
 
-- **Visual Q/A**
-	- **Constructing and Training our model**
-		- [Download the data from my Dropbox here](https://www.dropbox.com/scl/fo/w6iyfox8gnflvm7g10n47/AB47L7tNEl2Q8eyemZa2GMA?rlkey=v9s8bv6cmjukykpilzimswar0&st=fbulzw4e&dl=0)
-		- [Local](notebooks/constructing_a_vqa_system.ipynb), [Colab](https://colab.research.google.com/drive/1zvbruS1DvFrVgXjNouSrrF9-PphKLWWl?usp=sharing) 
 
-	- **Using our VQA system**
-		- [Local](notebooks/using_our_vqa.ipynb), [Colab](https://colab.research.google.com/drive/16GOBndQuIBO-UfXdpPte-PXaZS2nsW1H?usp=sharing)
+- **Visual Q/A** - This case study requires you to [download the data from my Dropbox here](https://www.dropbox.com/scl/fo/w6iyfox8gnflvm7g10n47/AB47L7tNEl2Q8eyemZa2GMA?rlkey=v9s8bv6cmjukykpilzimswar0&st=fbulzw4e&dl=0). The code snippets should download them in code if that is easier! Our goal is to emulate the process done by [Llama 3.2-Vision-Instruct](https://colab.research.google.com/drive/1r6Nab2L7rYUBV5e8K8u8EFw98adJu5uh?usp=sharing): one of Meta's latest Llama models that can take in images.
+	
+	- Method 1: BERT + ViT -> GPT-2 (Fusion)
 
+		- Constructing and Training our model: [Local](notebooks/constructing_a_vqa_system.ipynb) and notebook in [Colab](https://colab.research.google.com/drive/1zvbruS1DvFrVgXjNouSrrF9-PphKLWWl?usp=sharing)
+		- Using our VQA system: [Local](notebooks/using_our_vqa.ipynb) notebook and [Colab](https://colab.research.google.com/drive/16GOBndQuIBO-UfXdpPte-PXaZS2nsW1H?usp=sharing)
+	
+		- Method 2: BERT + ViT -> GPT-2 (Fusion)
+			- [Train the VQA Model](https://colab.research.google.com/drive/1DSh8_yfubuu5xPVM2BQ-I_eH5rrxLKZU?usp=sharing) and [use it here](https://colab.research.google.com/drive/1AWAk7NTvgTbjktUNB6bmS6T37bgTzRgt?usp=sharing)
 
 #### How to Use the Image Recognition Flask App
 
