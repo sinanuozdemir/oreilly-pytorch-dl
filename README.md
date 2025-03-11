@@ -53,7 +53,7 @@ All data can be downloaded for the art classification example [here](https://dri
 		- Method 2: BERT + ViT -> GPT-2 (Fusion)
 			- [Train the VQA Model](https://colab.research.google.com/drive/1DSh8_yfubuu5xPVM2BQ-I_eH5rrxLKZU?usp=sharing) and [use it here](https://colab.research.google.com/drive/1AWAk7NTvgTbjktUNB6bmS6T37bgTzRgt?usp=sharing)
 
-- **[Training a Reasoning Model with Unsloth](https://colab.research.google.com/drive/1Cws1IL_T_0_cP0-cHxFA0FEsXYdiAN_8?usp=sharing)** - Advanced - See how companies like DeepSeek and Anthropic train their reasoning models
+- **[Training a Reasoning Model with Unsloth](https://colab.research.google.com/drive/1Cws1IL_T_0_cP0-cHxFA0FEsXYdiAN_8?usp=sharing)** - Advanced - See how companies like DeepSeek and Anthropic train their reasoning models. [Unsloth AI](https://unsloth.ai/) is a package aiming to make fine-tuning more streamlined, faster, and more memory efficient by handwriting things like backprop in a faster way. We salute them for their work!
 
 #### How to Use the Image Recognition Flask App
 
