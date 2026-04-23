@@ -18,9 +18,10 @@ All data can be downloaded for the art classification example [here](https://dri
 - [**First steps with Deep Learning with MNIST**](notebooks/mnist.ipynb)
 - [**RNNs and CNNs**](notebooks/rnn_and_cnn.ipynb)
 - [**Working with pre-trained VGG-11 and BERT models**](notebooks/vgg_and_bert.ipynb)
-- [**Fine-tuning BERT vs ChatGPT**](notebooks/BERT_vs_GPT_for_CLF.ipynb)
-	- [Fine-tuning OpenAI](https://github.com/sinanuozdemir/quick-start-guide-to-llms/blob/main/notebooks/05_openai_app_review_fine_tuning.ipynb): the code to compare against BERT
-- [**Fine-tuning GPT-2 to convert English to LaTEX**](notebooks/latex_gpt2.ipynb)
+- **Fine-tuning BERT vs GPT**
+    - Fine-tuning BERT for app reviews: [Google Colab](https://colab.research.google.com/drive/1z2sMZ_A05_VGYqpHBgabvcV0V4INYhQ4#scrollTo=QQAdv6RBNees)
+    - App review calibration: [Google Colab](https://colab.research.google.com/drive/1460HIj1mFmPA1iOoVVh5uapBkrLZyopI#scrollTo=cb0i0fjeiIzv)
+	- [Fine-tuning OpenAI](./notebooks/openai_app_review_ft.ipynb): the code to compare against BERT
 - [**Fine-tuning Llama 3 to be a chatbot**](https://colab.research.google.com/drive/1gN7jsUFQTPAj5uFrq06HcSLQSZzT7hZz?usp=sharing)
 
 #### 2. Optimizing models 
