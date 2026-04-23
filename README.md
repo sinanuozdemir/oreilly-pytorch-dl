@@ -56,6 +56,11 @@ All data can be downloaded for the art classification example [here](https://dri
 
 - **[Training a Reasoning Model with Unsloth](https://colab.research.google.com/drive/1Cws1IL_T_0_cP0-cHxFA0FEsXYdiAN_8?usp=sharing)** - Advanced - See how companies like DeepSeek and Anthropic train their reasoning models. [Unsloth AI](https://unsloth.ai/) is a package aiming to make fine-tuning more streamlined, faster, and more memory efficient by handwriting things like backprop in a faster way. We salute them for their work!
 
+#### 4. Data Quality and Model Maintenance
+
+- **[Cleaning Data using Deep Learning](https://colab.research.google.com/drive/1hPnU9sLsV9W50q9rd_oxUU1Bv7SUCVU5?usp=sharing)**: Using AUM and Cosine Similarity to clean data
+- **[Combating AI drift](https://colab.research.google.com/drive/14E6DMP_RGctUPqjI6VMa8EFlggXR7fat?usp=sharing)**: Using Online Learning to combat drift
+
 #### How to Use the Image Recognition Flask App
 
 `app.py` is a Flask app that uses a VGG16 model to classify the art style of an uploaded image. The app currently supports 10 different art styles:
